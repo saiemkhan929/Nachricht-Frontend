@@ -1,0 +1,25 @@
+.chatbox{
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+    .left_part{
+        flex: 0.33;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .right_part{
+        flex:0.67;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+    }
+}

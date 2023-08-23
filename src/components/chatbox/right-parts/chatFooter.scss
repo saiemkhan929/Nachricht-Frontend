@@ -1,0 +1,34 @@
+.chat_footer{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #ededed;
+    justify-content: center;
+
+    .__part_one{
+        flex: .15;
+        display: flex;
+        justify-content: center;
+    }
+
+    .__part_middle{
+        flex: .7;
+
+        input{
+            width: 100%;
+            padding: 15px;
+            border-radius: 50px;
+            outline-width: 0;
+            border:0;
+            font-size: 14px;
+        }
+    }
+
+    .__part_final{
+        flex: .15;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+}
